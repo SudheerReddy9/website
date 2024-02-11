@@ -82,6 +82,7 @@ ul li a:hover{
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    cursor: pointer;
 }
 .btn{
     width: 100px;
@@ -91,8 +92,10 @@ ul li a:hover{
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
+    border-color: #ff7200;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+    cursor: pointer;
     
 }
 .btn:focus{
@@ -101,17 +104,18 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
-/* @keyframes change {
-    0%
-    {
-        background-image: url(construction.jpeg);
-    }
-    50%
-    {
-        background-image: url(construction1.jpeg);
-    }
-    100%
-    {
-        background-image: url(construction2.jpeg);
-    }
-} */
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    
+}
