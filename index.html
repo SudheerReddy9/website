@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Website</title>
-    <link rel = 'stylesheet' href="style.css">
+
+    <!-- This sets the title of the webpage -->
+    <title>Webpage Design</title>
+
+    <link rel="website icon" type = "png" href="logo.jpg">
+
+    <!--  This links an external CSS file to the HTML document. -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class = "main">
-        <div class = "navigation">
-            <div class = "icon">
-                <h2 class = "logo">SRC</h2>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <figure>
+                    <figcaption>SRC</figcaption>
+                    <img src="logo.jpg" alt="SRI RAMALINGESWARA" width="80" height="80">
+                  </figure>
             </div>
-            <div class = "menu">
+
+            <div class="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -21,21 +30,46 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
-            <div class = "search">
-                <input class = "srch" type = "search" name = "" placeholder="Type To Text">
-                <a href="#"> <button class = "btn">Search</button></a>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
             </div>
 
-        </div>
+        </div> 
+        <div class="content">
+            <h1>Construction,<br><span>Planning</span> & <br>Development</h1>
+            <p class="par">
+                Creating lasting impressions with our commitment to craftsmanship.<br>
+                Where innovation meets construction -<i>your project, our passion.</i> <br>
+                Building a better tomorrow, today.</p>
 
-        <div class = "content">
-            <h1>Web Design &<br><span>Developmet</span><br>Course</h1>
-            <p class ="par">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                <br> Impedit praesentium dignissimos eveniet non ipsum molestias unde?
-                <br>natus quod quasi sunt, laboriosam ratione odit qui corrupti sed,
-                <br> obcaecati aliquam nam!</p>
-                <button class ="cn"><a href="#">JOINUS</a></button>
+                <button class="cn"><a href="#">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
         </div>
     </div>
+    <!--it allows the webpage to utilize the Ionicons library and render icons on the page.-->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
